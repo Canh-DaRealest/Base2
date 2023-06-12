@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AudioCutter</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="storage_access">This app needs access to Storage</string>
+    <string name="memory_access_guide">1. Tap Open Settings\n2. Permissions\n3. Allow access to Media/Storage</string>
+    <string name="open_settings">Open settings</string>
+
+    <!-- Untranslatable text -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad" translatable="false">Ad</string>
+    <string name="ok" translatable="false">OK</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_radius_16">
+
+    <TextView
+        android:id="@+id/lbl_title"
+        style="@style/TextView.Medium"
+        android:layout_width="@dimen/dimen_0"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_32"
+        android:layout_marginTop="@dimen/dimen_36"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        style="@style/Button.WhiteRadius16"
+        android:layout_width="@dimen/dimen_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_8"
+        android:text="@string/cancel"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="@dimen/text_15"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_ok"
+        app:layout_constraintEnd_toStartOf="@id/btn_ok"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/btn_ok"
+        style="@style/Button"
+        android:layout_width="@dimen/dimen_0"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_8"
+        android:layout_marginTop="@dimen/dimen_32"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:layout_marginBottom="@dimen/dimen_20"
+        android:background="@drawable/btn_accent_radius_16"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_title"
+        app:layout_goneMarginTop="@dimen/dimen_32" />
+</androidx.constraintlayout.widget.ConstraintLayout>

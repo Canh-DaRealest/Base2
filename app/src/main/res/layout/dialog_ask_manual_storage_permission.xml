@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_radius_16"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_title"
+        style="@style/TextView.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_32"
+        android:gravity="center_horizontal"
+        android:paddingVertical="@dimen/dimen_16"
+        android:text="@string/storage_access"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_20" />
+
+    <TextView
+        android:id="@+id/content"
+        style="@style/TextView.Regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dimen_48"
+        android:lineSpacingExtra="@dimen/dimen_8"
+        android:text="@string/memory_access_guide"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_15" />
+
+    <TextView
+        android:id="@+id/btn_open_settings"
+        style="@style/Button.AccentRadius16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="@dimen/dimen_80"
+        android:layout_marginTop="@dimen/dimen_28"
+        android:elevation="@dimen/dimen_4"
+        android:text="@string/open_settings"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_16" />
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        style="@style/Button.WhiteRadius16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/dimen_8"
+        android:minWidth="@dimen/dimen_150"
+        android:text="@string/cancel"
+        android:textColor="#A1A1A1"
+        android:textSize="@dimen/text_15"
+        android:textStyle="normal" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+package com.jm.tools.audio.audiocutter.data.model
+
+class AdsConfigModel : BaseModel() {
+    var isAdsEnabled = false
+    var adIdOpenSplash: String? = null
+    var adIdOpenEditor: String? = null
+    var adIdOpenResume: String? = null
+    var adIdRewardInterFontList: String? = null
+    var adIdRewardFont: String? = null
+    var adIdRewardTextColor: String? = null
+    var adIdInterHomeItemSelectPhoto: String? = null
+    var adIdInterHomeItemPhotoSaved: String? = null
+    var adIdInterPhotoChange: String? = null
+    var adIdInterPhotoSelect: String? = null
+    var adIdInterPhotoViewerBack: String? = null
+    var adIdInterFontListOpen: String? = null
+    var adIdInterFontListBack: String? = null
+    var adIdInterStickerListOpen: String? = null
+    var adIdInterStickerListBack: String? = null
+    var adIdInterTextAddBack: String? = null
+    var adIdInterTextAddOk: String? = null
+    var adIdInterResultFullscreenBack: String? = null
+    var adIdInterAdsRemoveBack: String? = null
+    var adIdInterEditorAddText: String? = null
+    var adIdInterEditorDecorate: String? = null
+    var adIdInterEditorEditImage: String? = null
+    var adIdInterEditorSave: String? = null
+    var adIdInterEditorBack: String? = null
+    var adIdInterSavedPhotoBack: String? = null
+    var adIdInterResultBack: String? = null
+    var adIdInterOkWallpaperClick: String? = null
+    var lastTimeInterAdShown: Int = 0 // Second
+    var minTimeToShowNextInterAd: Int = 0 // Second
+    var startShowingInterHomeItemPhotoSelectFrom: Int = 0
+    var startShowingInterHomeItemPhotoSavedFrom: Int = 0
+    var startShowingInterEditorSaveFrom: Int = 0
+    var startShowingOpenEditorFrom: Int = 0
+    var thresholdToStopOpenAdAll: Int = 3
+    var adIdNativeHome: String? = null
+    var adIdNativeResult: String? = null
+    var adIdBannerResult: String? = null
+    var adIdBannerPhotoList: String? = null
+    var adIdBannerAddText: String? = null
+    var adIdBannerSavedPhoto: String? = null
+    var adIdBannerPhotoDetail: String? = null
+    var adIdBannerSampleTextList: String? = null
+    var adIdBannerFontList: String? = null
+    var adIdBannerStickerList: String? = null
+    var adIdBannerEmojiList: String? = null
+    var adIdBannerLineList: String? = null
+    var adIdBannerTypoList: String? = null
+    var adIdBannerBorderList: String? = null
+    var isShowNativeInResultPage = false
+    var maxAdClickNumberInSession: Int = 0
+    var adClickSession: Int = 0
+    var adDisabledSecond: Int = 0
+}
